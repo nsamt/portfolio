@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+*{
+    scroll-behavior: smooth;
+}
+
+.header {
+    position: fixed;
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: 'Passion One';
+    background-color: rgba(0, 0, 0, .6);
+}
+
+nav > a {
+padding: 2.5rem;
+margin-right: 3rem;
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+nav > a:hover {
+        color: #456679;
+        transition: 0.5s ease-in-out;
+    }
+
+.logo {
+    color: white;
+    font-size: 3rem;
+    margin-left: 3rem;
+    text-decoration: none;
+}
+
+#landing {
+    height: 100vh;
+    background-image: url(assets/electronic-device-balancing-concept.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#landing-text-wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 14rem;
+}
+
+#hi {
+    font-family: 'Passion One';
+    font-size: 70px;
+    color: white;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#hi.visible {
+    opacity: 1;
+    transition: 1s ease-in-out;
+}
+
+#name {
+    font-family: 'Passion One';
+    font-size: 100px;
+    color: white;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#name.visible {
+    opacity: 1;
+    transition: 1s ease-in-out;
+}
+
+#lastname {
+    font-family: 'Passion One';
+    font-size: 120px;
+    color: white;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#lastname.visible {
+    opacity: 1;
+    transition: 1s ease-in-out;
+}
+
+#description {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+#description.visible {
+    opacity: 1;
+    transition: 1s ease-in-out;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+
+
+}
+#about > h3 {
+    padding: 3rem;
+    font-family: 'Passion One';
+    font-size: 3.5rem;
+}
+
+#about > p {
+    padding: 3rem;
+    font-family: 'Passion One';
+    font-size: 2rem;
+}
+
+#languages-img {
+    padding:4rem;
+}
+
+#portfolio {
+    background: black;
+    color: white;
+    height: 100vh;
+}
+#portfolio-title {
+    padding: 3rem;
+    font-family: 'Passion One';
+    font-size: 3.5rem;
+}
+#portfolio div {
+    padding: 3rem;
+}
+.project-title {
+    font-family: 'Passion One';
+    font-size: 2.5rem;
+}
+#portfolio div p {
+    font-family: 'Roboto';
+    font-size: 1.3rem;
+}
+#portfolio div a {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 600;
+    margin-right: 2rem;
+}
+#portfolio div a:hover{
+    color: #456679;
+    transition: 0.5s ease-in-out;
+}
+#contact h3 {
+    padding: 3rem;
+    font-family: 'Passion One';
+    font-size: 3.5rem;
+}
+#contact h4 {
+    padding: 2.5rem;
+    font-family: 'Passion One';
+    font-size: 3rem;
+}
+#contact button {
+    margin: 3rem;
+    padding: 1.5rem;
+    font-family: 'Passion One';
+    font-size: 2rem;
+    border-radius: 2rem;
+    background-color: black;
+    color:white;
+}
