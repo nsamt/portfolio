@@ -176,7 +176,10 @@ nav > a:hover {
     font-family: 'Passion One';
     font-size: 3rem;
 }
-#contact button {
+#contact-button {
+    display:flex;
+    box-sizing: border-box;
+    width: 260px;
     margin: 3rem;
     padding: 1.5rem;
     font-family: 'Passion One';
@@ -184,4 +187,10 @@ nav > a:hover {
     border-radius: 2rem;
     background-color: black;
     color:white;
+    border: none;
+    text-decoration: none;
+}
+#contact-button:hover {
+    background-color: #456679;
+    transition: 0.5s ease-in-out;
 }
